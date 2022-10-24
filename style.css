@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("fonts/Inter-Bold.ttf");    
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("fonts/Inter-Regular.ttf");    
+}
+
+body {
+    margin:0 auto;
+	padding:0;
+	font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header {
+	height: 85px; 
+}
+
+.header_nav {
+	display: flex;
+}
+
+.header_nav a {
+	margin-left: 15px;
+}
+
+.border {
+    border:1px solid #E2E2E2;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.links {
+    text-decoration: none;
+}
+.container {
+    max-width: 1152px;
+	margin: 0 auto;
+
+ }
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.date {
+	font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 55px;
+    color: #718096;
+}
+
+.about_link {
+	font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    color: #2D3748;
+}
+
+.about {
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border-radius: 5px;
+ }
+
+.news {
+	padding: 43px;
+	margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-between;
+
+ }
+
+ .slider {
+    background: #FBFBFB;
+    margin-bottom: 39px;
+ }
+
+
+.news_link {
+	font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    padding-right: 15px;
+    color: #2D3748;
+}
+.news_block {
+    box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+    border-radius: 5px;
+}
+.news_date {
+	font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 15px;
+    color: #2D3748;
+}
+
+.logo {
+    color: #454444; 
+    font-family: "Inter-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    flex: 1 1 auto;
+    margin: 0 5px;
+}
+
+.glass {
+    color: black;
+    background: white;
+    border: 0;
+    
+}
+
+.input {
+    border: 0;
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+}
+
+.make_better_coffee {
+    font-family: "Inter-Bold";
+    text-align: justify;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #000000;
+    padding-left: 50px;
+ }
+
+.why {
+    font-family: "Inter-Regular";
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4A5568;
+    padding-left: 50px;
+
+}
+
+.croods1 {
+    padding: 50px;
+}
+
+.long {
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2D3748;
+    text-align: justify;
+    padding-left: 55px;
+}
+
+.long_small {
+    font-family: "Inter-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3748; 
+    text-align: justify; 
+    padding-left: 15px;
+}
+
+.it_is {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #718096;
+    padding-left: 55px;
+    width: 401px;
+}
+
+.block {
+    width: 300px;
+    margin-bottom: 43px;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.it_is_for_blocks {
+    text-align: justify;
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #718096;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.what_is {
+    font-family: "Inter-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    text-align: justify;
+    padding-left: 55px;
+
+}
+
+.see_more {
+    display: flex;
+    justify-content: flex-end;
+    margin: 43px; 93px; 43px;
+ }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
